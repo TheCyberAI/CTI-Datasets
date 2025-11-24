@@ -6,7 +6,7 @@ import os
 # --- Configuration ---
 INPUT_FILE = 'CTIDataset_2014_MalwareEvent.xml'
 OUTPUT_FILE = 'cti_fine_tuning_dataset.json'
-MODEL_IDENTITY = "CyberSentinel-v1"  # The unique name for your LLM
+MODEL_IDENTITY = "TheCyberOpinion"  # The unique name for your LLM
 
 def generate_dataset(filename):
     """
